@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 1</title>
+
+    <style>
+      @font-face {
+        font-family: "letra1";
+        src: url(./Recursos/coolvetica\ rg.otf);
+        font-weight: 400;
+      }
+
+      @font-face {
+        font-family: "letra2";
+        src: url(./Recursos/Roboto-Light.ttf);
+        font-weight: 300, 400;
+      }
+
+      h1 {
+        font-family: "letra1";
+        font-weight: 400;
+        color: #0a2ff1;
+        font-size: 120px;
+      }
+
+      p {
+        font-family: "letra2";
+        font-weight: 300;
+        color: #04146c;
+        font-size: 40px;
+      }
+
+      .boton1 {
+        font-family: "letra2";
+        font-weight: 400;
+        background-color: #0a2ff1;
+        font-size: 40px;
+        color: white;
+        border: none;
+      }
+
+      .boton2 {
+        font-family: "letra2";
+        font-weight: 400;
+        color: #04146c;
+        border: #0a2ff1 solid 2px;
+        font-size: 40px;
+        box-sizing: content-box;
+      }
+      main {
+        text-align: center;
+      }
+      div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      button{
+        margin: 10px;
+        padding: 15px;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <h1>Conoce Coolorist</h1>
+      <p>
+        Crea tu paleta perfecta o inspírate con miles de<br />hermosos esquemas
+        de color.
+      </p>
+
+      <div>
+        <button class="boton1">¡Prueba el generador!</button>
+
+        <button class="boton2">Explora otras paletas</button>
+      </div>
+    </main>
+  </body>
+</html>
